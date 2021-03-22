@@ -1,0 +1,2 @@
+C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\sqs_workers\queue.py:469: UserWarning: Error while processing emails.send_emailsss
+  warnings.warn(

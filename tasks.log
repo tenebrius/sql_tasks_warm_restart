@@ -1,0 +1,678 @@
+2021-03-23 02:43:08,005 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:43:26,416 [MainThread  ] [INFO ]  starting
+2021-03-23 02:43:26,417 [MainThread  ] [DEBUG]  Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-03-23 02:43:26,418 [MainThread  ] [DEBUG]  Changing event name from before-call.apigateway to before-call.api-gateway
+2021-03-23 02:43:26,419 [MainThread  ] [DEBUG]  Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-03-23 02:43:26,421 [MainThread  ] [DEBUG]  Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-03-23 02:43:26,421 [MainThread  ] [DEBUG]  Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-03-23 02:43:26,422 [MainThread  ] [DEBUG]  Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-03-23 02:43:26,422 [MainThread  ] [DEBUG]  Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-03-23 02:43:26,425 [MainThread  ] [DEBUG]  Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-03-23 02:43:26,425 [MainThread  ] [DEBUG]  Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-03-23 02:43:26,425 [MainThread  ] [DEBUG]  Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-03-23 02:43:26,425 [MainThread  ] [DEBUG]  Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-03-23 02:43:26,432 [MainThread  ] [DEBUG]  IMDS ENDPOINT: http://169.254.169.254/
+2021-03-23 02:43:26,433 [MainThread  ] [DEBUG]  Looking for credentials via: env
+2021-03-23 02:43:26,433 [MainThread  ] [DEBUG]  Looking for credentials via: assume-role
+2021-03-23 02:43:26,434 [MainThread  ] [DEBUG]  Looking for credentials via: assume-role-with-web-identity
+2021-03-23 02:43:26,434 [MainThread  ] [DEBUG]  Looking for credentials via: sso
+2021-03-23 02:43:26,434 [MainThread  ] [DEBUG]  Looking for credentials via: shared-credentials-file
+2021-03-23 02:43:26,434 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:43:26,435 [MainThread  ] [DEBUG]  Loading JSON file: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\data\endpoints.json
+2021-03-23 02:43:26,441 [MainThread  ] [DEBUG]  Event choose-service-name: calling handler <function handle_service_name_alias at 0x04437808>
+2021-03-23 02:43:26,482 [MainThread  ] [DEBUG]  Loading JSON file: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\data\sqs\2012-11-05\service-2.json
+2021-03-23 02:43:26,484 [MainThread  ] [DEBUG]  Event creating-client-class.sqs: calling handler <function add_generate_presigned_url at 0x04405DF0>
+2021-03-23 02:43:26,485 [MainThread  ] [DEBUG]  Setting sqs timeout as (60, 60)
+2021-03-23 02:43:26,486 [MainThread  ] [DEBUG]  Loading JSON file: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\data\_retry.json
+2021-03-23 02:43:26,486 [MainThread  ] [DEBUG]  Registering retry handlers for service: sqs
+2021-03-23 02:43:26,525 [MainThread  ] [DEBUG]  Loading JSON file: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\boto3\data\sqs\2012-11-05\resources-1.json
+2021-03-23 02:43:26,526 [MainThread  ] [DEBUG]  Event choose-service-name: calling handler <function handle_service_name_alias at 0x04437808>
+2021-03-23 02:43:26,526 [MainThread  ] [DEBUG]  Event creating-client-class.sqs: calling handler <function add_generate_presigned_url at 0x04405DF0>
+2021-03-23 02:43:26,528 [MainThread  ] [DEBUG]  Setting sqs timeout as (60, 60)
+2021-03-23 02:43:26,528 [MainThread  ] [DEBUG]  Registering retry handlers for service: sqs
+2021-03-23 02:43:26,528 [MainThread  ] [DEBUG]  Loading sqs:sqs
+2021-03-23 02:43:26,529 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.CreateQueue: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:43:26,530 [MainThread  ] [DEBUG]  Event before-call.sqs.CreateQueue: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:43:26,530 [MainThread  ] [DEBUG]  Making request for OperationModel(name=CreateQueue) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33'}, 'body': {'Action': 'CreateQueue', 'Version': '2012-11-05', 'QueueName': 'emails'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x044E38B0>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:43:26,530 [MainThread  ] [DEBUG]  Event request-created.sqs.CreateQueue: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x044E37C0>>
+2021-03-23 02:43:26,530 [MainThread  ] [DEBUG]  Event choose-signer.sqs.CreateQueue: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:43:26,531 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:43:26,531 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184326Z
+
+content-type;host;x-amz-date
+1256832dd4043a01011611fe23679db1826ad4d491e886a7c85ce5174140c6e7
+2021-03-23 02:43:26,531 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184326Z
+20210322/ap-southeast-1/sqs/aws4_request
+c0c047faad33eeb1b29ba6d89431dcf19479f6d45ecafd29b54eba992cb7158a
+2021-03-23 02:43:26,531 [MainThread  ] [DEBUG]  Signature:
+339e87f437e44b019a702ca3f842b286715c8ed96692521689b51db07d67877a
+2021-03-23 02:43:26,531 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33', 'X-Amz-Date': b'20210322T184326Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=339e87f437e44b019a702ca3f842b286715c8ed96692521689b51db07d67877a', 'Content-Length': '54'}>
+2021-03-23 02:43:26,532 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:43:26,532 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): ap-southeast-1.queue.amazonaws.com:443
+2021-03-23 02:43:28,542 [MainThread  ] [DEBUG]  https://ap-southeast-1.queue.amazonaws.com:443 "POST / HTTP/1.1" 200 333
+2021-03-23 02:43:28,543 [MainThread  ] [DEBUG]  Response headers: {'x-amzn-RequestId': 'c8e739ed-9b8f-53cf-9ea7-613f7c0059a9', 'Date': 'Mon, 22 Mar 2021 18:43:27 GMT', 'Content-Type': 'text/xml', 'Content-Length': '333'}
+2021-03-23 02:43:28,543 [MainThread  ] [DEBUG]  Response body:
+b'<?xml version="1.0"?><CreateQueueResponse xmlns="http://queue.amazonaws.com/doc/2012-11-05/"><CreateQueueResult><QueueUrl>https://ap-southeast-1.queue.amazonaws.com/538736430907/emails</QueueUrl></CreateQueueResult><ResponseMetadata><RequestId>c8e739ed-9b8f-53cf-9ea7-613f7c0059a9</RequestId></ResponseMetadata></CreateQueueResponse>'
+2021-03-23 02:43:28,543 [MainThread  ] [DEBUG]  Event needs-retry.sqs.CreateQueue: calling handler <botocore.retryhandler.RetryHandler object at 0x044E3D78>
+2021-03-23 02:43:28,544 [MainThread  ] [DEBUG]  No retry needed.
+2021-03-23 02:43:28,544 [MainThread  ] [DEBUG]  Connect emails.send_email to processor main.send_email
+2021-03-23 02:43:28,544 [MainThread  ] [DEBUG]  Start processing queue emails
+2021-03-23 02:43:28,544 [MainThread  ] [DEBUG]  Calling sqs:get_queue_url with {'QueueName': 'emails'}
+2021-03-23 02:43:28,544 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.GetQueueUrl: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  Event before-call.sqs.GetQueueUrl: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  Making request for OperationModel(name=GetQueueUrl) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource'}, 'body': {'Action': 'GetQueueUrl', 'Version': '2012-11-05', 'QueueName': 'emails'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x0466F820>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  Event request-created.sqs.GetQueueUrl: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0466F7D8>>
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  Event choose-signer.sqs.GetQueueUrl: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:43:28,545 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184328Z
+
+content-type;host;x-amz-date
+f9c1a51303e99eb03e28435f41160af4c8c1c82a6ffc7afed23c856572c35392
+2021-03-23 02:43:28,546 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184328Z
+20210322/ap-southeast-1/sqs/aws4_request
+3ea6dcc14be446bea017c54a6aa1899d6c8ded649359551de4efdf9ee17c711a
+2021-03-23 02:43:28,546 [MainThread  ] [DEBUG]  Signature:
+5ea043ebf4852ce093cafea55f27c28243e011572e6491aa62a1e06c313f86d6
+2021-03-23 02:43:28,546 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource', 'X-Amz-Date': b'20210322T184328Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=5ea043ebf4852ce093cafea55f27c28243e011572e6491aa62a1e06c313f86d6', 'Content-Length': '54'}>
+2021-03-23 02:43:28,546 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:43:28,546 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): ap-southeast-1.queue.amazonaws.com:443
+2021-03-23 02:43:30,107 [MainThread  ] [DEBUG]  https://ap-southeast-1.queue.amazonaws.com:443 "POST / HTTP/1.1" 200 333
+2021-03-23 02:43:30,108 [MainThread  ] [DEBUG]  Response headers: {'x-amzn-RequestId': 'bb4e77f7-792f-527a-81d8-2f259ebfa6c5', 'Date': 'Mon, 22 Mar 2021 18:43:28 GMT', 'Content-Type': 'text/xml', 'Content-Length': '333'}
+2021-03-23 02:43:30,109 [MainThread  ] [DEBUG]  Response body:
+b'<?xml version="1.0"?><GetQueueUrlResponse xmlns="http://queue.amazonaws.com/doc/2012-11-05/"><GetQueueUrlResult><QueueUrl>https://ap-southeast-1.queue.amazonaws.com/538736430907/emails</QueueUrl></GetQueueUrlResult><ResponseMetadata><RequestId>bb4e77f7-792f-527a-81d8-2f259ebfa6c5</RequestId></ResponseMetadata></GetQueueUrlResponse>'
+2021-03-23 02:43:30,110 [MainThread  ] [DEBUG]  Event needs-retry.sqs.GetQueueUrl: calling handler <botocore.retryhandler.RetryHandler object at 0x0466FCE8>
+2021-03-23 02:43:30,110 [MainThread  ] [DEBUG]  No retry needed.
+2021-03-23 02:43:30,111 [MainThread  ] [DEBUG]  Response: {'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'ResponseMetadata': {'RequestId': 'bb4e77f7-792f-527a-81d8-2f259ebfa6c5', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'bb4e77f7-792f-527a-81d8-2f259ebfa6c5', 'date': 'Mon, 22 Mar 2021 18:43:28 GMT', 'content-type': 'text/xml', 'content-length': '333'}, 'RetryAttempts': 0}}
+2021-03-23 02:43:30,111 [MainThread  ] [DEBUG]  Loading sqs:Queue
+2021-03-23 02:43:30,113 [MainThread  ] [DEBUG]  Calling sqs:receive_message with {'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeNames': ['All'], 'AttributeNames': ['All']}
+2021-03-23 02:43:30,114 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.ReceiveMessage: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:43:30,115 [MainThread  ] [DEBUG]  Event before-call.sqs.ReceiveMessage: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:43:30,115 [MainThread  ] [DEBUG]  Making request for OperationModel(name=ReceiveMessage) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource'}, 'body': {'Action': 'ReceiveMessage', 'Version': '2012-11-05', 'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeName.1': 'All', 'AttributeName.1': 'All'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x0466F820>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:43:30,116 [MainThread  ] [DEBUG]  Event request-created.sqs.ReceiveMessage: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0466F7D8>>
+2021-03-23 02:43:30,116 [MainThread  ] [DEBUG]  Event choose-signer.sqs.ReceiveMessage: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:43:30,117 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:43:30,117 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184330Z
+
+content-type;host;x-amz-date
+25e70f9ecab43589942bbe08a794dcd0aa936e17ebe72fb86fb23435fe04651d
+2021-03-23 02:43:30,117 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184330Z
+20210322/ap-southeast-1/sqs/aws4_request
+011303feca0e4b4b04724bd19d3e1bf174d040fcfb1b3fda78a60d04d07b936d
+2021-03-23 02:43:30,118 [MainThread  ] [DEBUG]  Signature:
+f524d92e672003df5149b6ca48bf74dab40e640b406967533703c3ebf880f537
+2021-03-23 02:43:30,118 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource', 'X-Amz-Date': b'20210322T184330Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=f524d92e672003df5149b6ca48bf74dab40e640b406967533703c3ebf880f537', 'Content-Length': '211'}>
+2021-03-23 02:43:30,118 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:43:40,507 [MainThread  ] [DEBUG]  https://ap-southeast-1.queue.amazonaws.com:443 "POST / HTTP/1.1" 200 240
+2021-03-23 02:43:40,508 [MainThread  ] [DEBUG]  Response headers: {'x-amzn-RequestId': '646204dc-2c27-57d6-8c12-5c0ecbb63369', 'Date': 'Mon, 22 Mar 2021 18:43:39 GMT', 'Content-Type': 'text/xml', 'Content-Length': '240'}
+2021-03-23 02:43:40,509 [MainThread  ] [DEBUG]  Response body:
+b'<?xml version="1.0"?><ReceiveMessageResponse xmlns="http://queue.amazonaws.com/doc/2012-11-05/"><ReceiveMessageResult/><ResponseMetadata><RequestId>646204dc-2c27-57d6-8c12-5c0ecbb63369</RequestId></ResponseMetadata></ReceiveMessageResponse>'
+2021-03-23 02:43:40,510 [MainThread  ] [DEBUG]  Event needs-retry.sqs.ReceiveMessage: calling handler <botocore.retryhandler.RetryHandler object at 0x0466FCE8>
+2021-03-23 02:43:40,512 [MainThread  ] [DEBUG]  No retry needed.
+2021-03-23 02:43:40,512 [MainThread  ] [DEBUG]  Response: {'ResponseMetadata': {'RequestId': '646204dc-2c27-57d6-8c12-5c0ecbb63369', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '646204dc-2c27-57d6-8c12-5c0ecbb63369', 'date': 'Mon, 22 Mar 2021 18:43:39 GMT', 'content-type': 'text/xml', 'content-length': '240'}, 'RetryAttempts': 0}}
+2021-03-23 02:43:40,512 [MainThread  ] [DEBUG]  Loading sqs:Message
+2021-03-23 02:43:40,513 [MainThread  ] [DEBUG]  Renaming Message attribute receipt_handle
+2021-03-23 02:43:40,515 [MainThread  ] [DEBUG]  Calling sqs:receive_message with {'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeNames': ['All'], 'AttributeNames': ['All']}
+2021-03-23 02:43:40,517 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.ReceiveMessage: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:43:40,518 [MainThread  ] [DEBUG]  Event before-call.sqs.ReceiveMessage: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:43:40,518 [MainThread  ] [DEBUG]  Making request for OperationModel(name=ReceiveMessage) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource'}, 'body': {'Action': 'ReceiveMessage', 'Version': '2012-11-05', 'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeName.1': 'All', 'AttributeName.1': 'All'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x0466F820>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:43:40,519 [MainThread  ] [DEBUG]  Event request-created.sqs.ReceiveMessage: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0466F7D8>>
+2021-03-23 02:43:40,520 [MainThread  ] [DEBUG]  Event choose-signer.sqs.ReceiveMessage: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:43:40,521 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:43:40,522 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184340Z
+
+content-type;host;x-amz-date
+25e70f9ecab43589942bbe08a794dcd0aa936e17ebe72fb86fb23435fe04651d
+2021-03-23 02:43:40,522 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184340Z
+20210322/ap-southeast-1/sqs/aws4_request
+1c0367310d72764208f10136a6039780408cdaba2f4e8506441fcd594897bf28
+2021-03-23 02:43:40,523 [MainThread  ] [DEBUG]  Signature:
+df8b6d99e2914a7420178d61cc774e8c363867c61cf3bf447475a67f4eb05706
+2021-03-23 02:43:40,524 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource', 'X-Amz-Date': b'20210322T184340Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=df8b6d99e2914a7420178d61cc774e8c363867c61cf3bf447475a67f4eb05706', 'Content-Length': '211'}>
+2021-03-23 02:43:40,525 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:43:50,915 [MainThread  ] [DEBUG]  https://ap-southeast-1.queue.amazonaws.com:443 "POST / HTTP/1.1" 200 240
+2021-03-23 02:43:50,917 [MainThread  ] [DEBUG]  Response headers: {'x-amzn-RequestId': 'ec927601-225d-57f8-8dac-2ed3c5c64347', 'Date': 'Mon, 22 Mar 2021 18:43:49 GMT', 'Content-Type': 'text/xml', 'Content-Length': '240'}
+2021-03-23 02:43:50,917 [MainThread  ] [DEBUG]  Response body:
+b'<?xml version="1.0"?><ReceiveMessageResponse xmlns="http://queue.amazonaws.com/doc/2012-11-05/"><ReceiveMessageResult/><ResponseMetadata><RequestId>ec927601-225d-57f8-8dac-2ed3c5c64347</RequestId></ResponseMetadata></ReceiveMessageResponse>'
+2021-03-23 02:43:50,919 [MainThread  ] [DEBUG]  Event needs-retry.sqs.ReceiveMessage: calling handler <botocore.retryhandler.RetryHandler object at 0x0466FCE8>
+2021-03-23 02:43:50,919 [MainThread  ] [DEBUG]  No retry needed.
+2021-03-23 02:43:50,920 [MainThread  ] [DEBUG]  Response: {'ResponseMetadata': {'RequestId': 'ec927601-225d-57f8-8dac-2ed3c5c64347', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'ec927601-225d-57f8-8dac-2ed3c5c64347', 'date': 'Mon, 22 Mar 2021 18:43:49 GMT', 'content-type': 'text/xml', 'content-length': '240'}, 'RetryAttempts': 0}}
+2021-03-23 02:43:50,921 [MainThread  ] [DEBUG]  Loading sqs:Message
+2021-03-23 02:43:50,921 [MainThread  ] [DEBUG]  Renaming Message attribute receipt_handle
+2021-03-23 02:43:50,923 [MainThread  ] [DEBUG]  Calling sqs:receive_message with {'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeNames': ['All'], 'AttributeNames': ['All']}
+2021-03-23 02:43:50,924 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.ReceiveMessage: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:43:50,926 [MainThread  ] [DEBUG]  Event before-call.sqs.ReceiveMessage: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:43:50,926 [MainThread  ] [DEBUG]  Making request for OperationModel(name=ReceiveMessage) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource'}, 'body': {'Action': 'ReceiveMessage', 'Version': '2012-11-05', 'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeName.1': 'All', 'AttributeName.1': 'All'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x0466F820>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:43:50,927 [MainThread  ] [DEBUG]  Event request-created.sqs.ReceiveMessage: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0466F7D8>>
+2021-03-23 02:43:50,928 [MainThread  ] [DEBUG]  Event choose-signer.sqs.ReceiveMessage: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:43:50,929 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:43:50,930 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184350Z
+
+content-type;host;x-amz-date
+25e70f9ecab43589942bbe08a794dcd0aa936e17ebe72fb86fb23435fe04651d
+2021-03-23 02:43:50,931 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184350Z
+20210322/ap-southeast-1/sqs/aws4_request
+2a7bcec9943d355ee21c18cef88dc8623b00efb6196ff4fcaceda55df3fd59a8
+2021-03-23 02:43:50,931 [MainThread  ] [DEBUG]  Signature:
+2f7246b1a0dd71dec6f0cc61d5e4580520fa6506891be10f8a194f1b3c5df574
+2021-03-23 02:43:50,932 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource', 'X-Amz-Date': b'20210322T184350Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=2f7246b1a0dd71dec6f0cc61d5e4580520fa6506891be10f8a194f1b3c5df574', 'Content-Length': '211'}>
+2021-03-23 02:43:50,934 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:44:01,324 [MainThread  ] [DEBUG]  https://ap-southeast-1.queue.amazonaws.com:443 "POST / HTTP/1.1" 200 240
+2021-03-23 02:44:01,324 [MainThread  ] [DEBUG]  Response headers: {'x-amzn-RequestId': '622b8bb1-9dc5-5cff-b835-d3637a60f840', 'Date': 'Mon, 22 Mar 2021 18:43:59 GMT', 'Content-Type': 'text/xml', 'Content-Length': '240'}
+2021-03-23 02:44:01,324 [MainThread  ] [DEBUG]  Response body:
+b'<?xml version="1.0"?><ReceiveMessageResponse xmlns="http://queue.amazonaws.com/doc/2012-11-05/"><ReceiveMessageResult/><ResponseMetadata><RequestId>622b8bb1-9dc5-5cff-b835-d3637a60f840</RequestId></ResponseMetadata></ReceiveMessageResponse>'
+2021-03-23 02:44:01,325 [MainThread  ] [DEBUG]  Event needs-retry.sqs.ReceiveMessage: calling handler <botocore.retryhandler.RetryHandler object at 0x0466FCE8>
+2021-03-23 02:44:01,325 [MainThread  ] [DEBUG]  No retry needed.
+2021-03-23 02:44:01,326 [MainThread  ] [DEBUG]  Response: {'ResponseMetadata': {'RequestId': '622b8bb1-9dc5-5cff-b835-d3637a60f840', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '622b8bb1-9dc5-5cff-b835-d3637a60f840', 'date': 'Mon, 22 Mar 2021 18:43:59 GMT', 'content-type': 'text/xml', 'content-length': '240'}, 'RetryAttempts': 0}}
+2021-03-23 02:44:01,326 [MainThread  ] [DEBUG]  Loading sqs:Message
+2021-03-23 02:44:01,326 [MainThread  ] [DEBUG]  Renaming Message attribute receipt_handle
+2021-03-23 02:44:01,327 [MainThread  ] [DEBUG]  Calling sqs:receive_message with {'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeNames': ['All'], 'AttributeNames': ['All']}
+2021-03-23 02:44:01,328 [MainThread  ] [DEBUG]  Event before-parameter-build.sqs.ReceiveMessage: calling handler <function generate_idempotent_uuid at 0x0444D778>
+2021-03-23 02:44:01,328 [MainThread  ] [DEBUG]  Event before-call.sqs.ReceiveMessage: calling handler <function inject_api_version_header_if_needed at 0x044533D0>
+2021-03-23 02:44:01,328 [MainThread  ] [DEBUG]  Making request for OperationModel(name=ReceiveMessage) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': 'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource'}, 'body': {'Action': 'ReceiveMessage', 'Version': '2012-11-05', 'QueueUrl': 'https://ap-southeast-1.queue.amazonaws.com/538736430907/emails', 'WaitTimeSeconds': 10, 'MaxNumberOfMessages': 10, 'MessageAttributeName.1': 'All', 'AttributeName.1': 'All'}, 'url': 'https://ap-southeast-1.queue.amazonaws.com/', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x0466F820>, 'has_streaming_input': False, 'auth_type': None}}
+2021-03-23 02:44:01,329 [MainThread  ] [DEBUG]  Event request-created.sqs.ReceiveMessage: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0466F7D8>>
+2021-03-23 02:44:01,329 [MainThread  ] [DEBUG]  Event choose-signer.sqs.ReceiveMessage: calling handler <function set_operation_specific_signer at 0x0444D6E8>
+2021-03-23 02:44:01,330 [MainThread  ] [DEBUG]  Calculating signature using v4 auth.
+2021-03-23 02:44:01,330 [MainThread  ] [DEBUG]  CanonicalRequest:
+POST
+/
+
+content-type:application/x-www-form-urlencoded; charset=utf-8
+host:ap-southeast-1.queue.amazonaws.com
+x-amz-date:20210322T184401Z
+
+content-type;host;x-amz-date
+25e70f9ecab43589942bbe08a794dcd0aa936e17ebe72fb86fb23435fe04651d
+2021-03-23 02:44:01,330 [MainThread  ] [DEBUG]  StringToSign:
+AWS4-HMAC-SHA256
+20210322T184401Z
+20210322/ap-southeast-1/sqs/aws4_request
+c87a6123a4d701bc65737984a2cf77ecc6c4fe7ec9691c6002563c8bcce013ca
+2021-03-23 02:44:01,330 [MainThread  ] [DEBUG]  Signature:
+4b7c5b01b4fbfb21b1634dd4952fd74b7ca64ee0463da370fad84894a1c40431
+2021-03-23 02:44:01,331 [MainThread  ] [DEBUG]  Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://ap-southeast-1.queue.amazonaws.com/, headers={'Content-Type': b'application/x-www-form-urlencoded; charset=utf-8', 'User-Agent': b'Boto3/1.17.33 Python/3.8.5 Windows/10 Botocore/1.20.33 Resource', 'X-Amz-Date': b'20210322T184401Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAX23ZRR45ZSNCPPPK/20210322/ap-southeast-1/sqs/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=4b7c5b01b4fbfb21b1634dd4952fd74b7ca64ee0463da370fad84894a1c40431', 'Content-Length': '211'}>
+2021-03-23 02:44:01,331 [MainThread  ] [DEBUG]  Certificate path: C:\Users\divish\PycharmProjects\pythonProject\venv\lib\site-packages\botocore\cacert.pem
+2021-03-23 02:44:23,975 [MainThread  ] [INFO ]  starting
+2021-03-23 02:44:23,992 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:44:45,193 [MainThread  ] [INFO ]  starting
+2021-03-23 02:44:45,210 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:44:51,119 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:44:53,120 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:44:55,120 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:44:57,121 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:44:59,121 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:45:20,860 [MainThread  ] [INFO ]  starting
+2021-03-23 02:45:20,878 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:45:26,414 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:45:28,414 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:45:29,985 [MainThread  ] [INFO ]  starting
+2021-03-23 02:45:30,003 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:45:30,414 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:45:32,415 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:45:34,416 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:47:36,828 [MainThread  ] [INFO ]  starting
+2021-03-23 02:47:36,845 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:47:44,981 [MainThread  ] [INFO ]  starting
+2021-03-23 02:47:45,000 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:47:50,521 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:47:52,524 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:47:54,524 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:47:56,524 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:47:58,525 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:48:00,525 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:48:02,526 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:48:04,526 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:48:06,527 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:48:08,528 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:48:10,529 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:48:12,529 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:48:14,530 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:48:16,532 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:48:18,533 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:48:20,533 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:48:22,534 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:48:24,535 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:48:26,535 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:48:28,536 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:48:30,537 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:48:32,537 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:48:34,538 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:48:36,539 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:48:38,540 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:48:40,541 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:48:42,542 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:48:44,542 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:48:46,542 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:48:48,543 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:48:48,933 [MainThread  ] [INFO ]  Scheduled shutdown
+2021-03-23 02:49:37,587 [MainThread  ] [INFO ]  starting
+2021-03-23 02:49:37,605 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:49:41,709 [MainThread  ] [INFO ]  starting
+2021-03-23 02:49:41,728 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:50:00,687 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:50:02,687 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:50:04,687 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:50:06,688 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:50:08,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:50:10,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:50:12,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:50:14,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:50:16,690 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:50:18,690 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:50:20,691 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:50:22,692 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:50:24,692 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:50:26,692 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:50:28,693 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:50:30,694 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:50:32,695 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:50:34,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:50:36,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:50:38,697 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:50:40,697 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:50:42,697 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:50:44,698 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:50:46,698 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:50:48,699 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:50:50,700 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:50:52,700 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:50:54,701 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:50:56,702 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:50:58,702 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:51:07,589 [MainThread  ] [INFO ]  starting
+2021-03-23 02:51:07,609 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:51:13,605 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:51:15,605 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:51:17,606 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:51:19,607 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:51:21,608 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:51:23,609 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:51:25,610 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:51:27,610 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:51:29,611 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:51:31,611 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:51:33,612 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:51:35,612 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:51:37,613 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:51:39,613 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:51:41,614 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:51:43,615 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:51:45,616 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:51:47,617 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:51:49,617 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:51:51,617 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:51:53,618 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:51:55,618 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:51:57,619 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:51:59,620 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:52:01,621 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:52:03,621 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:52:05,621 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:52:07,622 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:52:09,622 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:52:11,623 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:53:15,633 [MainThread  ] [INFO ]  starting
+2021-03-23 02:53:15,652 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:53:21,683 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:53:23,684 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:53:25,684 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:53:27,684 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:53:29,685 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:53:31,685 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:53:31,741 [MainThread  ] [INFO ]  starting
+2021-03-23 02:53:31,759 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:53:33,685 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:53:35,685 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:53:37,686 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:53:39,687 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:53:41,688 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:53:43,688 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:53:45,366 [MainThread  ] [INFO ]  Scheduled shutdown
+2021-03-23 02:53:45,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:53:47,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:53:49,689 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:53:51,690 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:53:53,691 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:53:55,692 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:53:57,692 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:53:59,693 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:54:01,693 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:54:03,694 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:54:05,695 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:54:07,695 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:54:09,695 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:54:11,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:54:13,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:54:15,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:54:17,696 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:54:19,697 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:54:52,775 [MainThread  ] [INFO ]  starting
+2021-03-23 02:54:52,794 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:54:58,436 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:55:00,436 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:55:02,437 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:55:04,438 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:55:06,438 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:55:08,439 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:55:10,440 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:55:12,441 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:55:14,441 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:55:16,441 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:55:18,442 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:55:20,443 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:55:22,444 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:55:24,444 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:55:26,444 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:55:28,444 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:55:30,445 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:55:32,446 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:55:34,446 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:55:36,447 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:55:38,448 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:55:40,448 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:55:42,449 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:55:44,450 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:55:46,451 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:55:48,451 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:55:50,452 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:55:52,452 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:55:54,453 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:55:56,454 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:56:38,381 [MainThread  ] [INFO ]  Scheduled shutdown
+2021-03-23 02:57:19,522 [MainThread  ] [INFO ]  starting
+2021-03-23 02:57:19,539 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:57:33,629 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:57:44,006 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:57:54,375 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:57:56,244 [MainThread  ] [INFO ]  starting
+2021-03-23 02:57:56,262 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:58:01,848 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:58:03,848 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 02:58:05,849 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 02:58:07,849 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 02:58:09,850 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 02:58:11,850 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 02:58:13,851 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 02:58:15,851 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 02:58:17,852 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 02:58:19,852 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 02:58:21,853 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 02:58:23,854 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 02:58:25,548 [MainThread  ] [INFO ]  starting
+2021-03-23 02:58:25,566 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 02:58:25,855 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 02:58:27,856 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 02:58:29,856 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 02:58:31,856 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 02:58:31,857 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 02:58:33,857 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 02:58:35,857 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 02:58:37,858 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 02:58:39,858 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 02:58:41,858 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 02:58:43,859 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 02:58:45,859 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 02:58:47,859 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 02:58:49,860 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 02:58:51,860 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 02:58:53,861 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 02:58:55,862 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 02:58:57,862 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 02:58:59,862 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 02:59:00,245 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:59:10,626 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:59:21,008 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:59:31,386 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:59:42,216 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 02:59:52,589 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:00:02,961 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:00:13,439 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:00:23,813 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:00:34,187 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:00:34,189 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:02:10,973 [MainThread  ] [INFO ]  starting
+2021-03-23 03:02:10,992 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:02:24,895 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:02:35,272 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:02:35,273 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:03:31,026 [MainThread  ] [INFO ]  starting
+2021-03-23 03:03:31,044 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:03:44,946 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:03:55,335 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:04:05,733 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:04:16,124 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:04:24,393 [MainThread  ] [INFO ]  starting
+2021-03-23 03:04:24,412 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:04:26,879 [MainThread  ] [INFO ]  starting
+2021-03-23 03:04:26,897 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:04:32,828 [MainThread  ] [INFO ]  starting
+2021-03-23 03:04:32,846 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:04:46,788 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:04:46,790 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:05:18,427 [MainThread  ] [INFO ]  starting
+2021-03-23 03:05:18,446 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:05:20,709 [MainThread  ] [INFO ]  starting
+2021-03-23 03:05:20,729 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:05:26,284 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 03:05:28,285 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 03:05:30,286 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 03:05:32,286 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 03:05:34,287 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 03:05:36,288 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 03:05:38,345 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 03:05:40,347 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 03:05:42,348 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 03:05:44,348 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 03:05:46,348 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 03:05:48,349 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 03:05:50,349 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 03:05:52,349 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 03:05:54,350 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 03:05:56,351 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 03:05:58,351 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 03:06:00,351 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 03:06:02,352 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 03:06:04,353 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 03:06:06,353 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 03:06:08,353 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 03:06:10,354 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 03:06:12,354 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com
+24
+2021-03-23 03:06:14,354 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 03:06:16,355 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 03:06:18,355 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 03:06:20,355 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 03:06:22,356 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 03:06:24,356 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 03:06:24,741 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:06:24,742 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:09:12,569 [MainThread  ] [INFO ]  starting
+2021-03-23 03:09:12,588 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:09:46,789 [MainThread  ] [INFO ]  starting
+2021-03-23 03:09:46,808 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:09:52,450 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 03:09:54,451 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 03:09:56,451 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 03:09:58,452 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 03:10:00,453 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 03:10:02,454 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 03:10:04,454 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 03:10:06,455 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 03:10:08,455 [MainThread  ] [INFO ]  Sen
+ding email Hello world to user@examplesss.com 9
+2021-03-23 03:10:10,456 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 03:10:12,456 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 03:10:14,456 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 03:10:16,457 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 03:10:18,458 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 03:10:20,458 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 03:10:22,458 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 03:10:24,458 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 03:10:26,459 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 03:10:28,460 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 03:10:30,460 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 03:10:32,461 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 03:10:34,461 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 03:10:36,461 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 03:10:38,462 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 03:10:40,462 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 03:10:42,462 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 03:10:44,462 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 03:10:46,463 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 03:10:48,464 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 03:10:50,464 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 03:10:50,867 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:10:50,868 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:11:11,636 [MainThread  ] [INFO ]  starting
+2021-03-23 03:11:11,655 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:11:34,844 [MainThread  ] [INFO ]  starting
+2021-03-23 03:11:34,862 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:12:15,328 [MainThread  ] [INFO ]  starting
+2021-03-23 03:12:15,346 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:12:21,299 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 03:12:23,299 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 03:12:25,300 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 03:12:27,300 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 03:12:29,300 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 03:12:31,302 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 03:12:33,302 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 03:12:35,303 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 03:12:37,303 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 03:12:39,304 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 03:12:41,305 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 03:12:43,305 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 03:12:45,306 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 03:12:47,306 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 03:12:49,307 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 03:12:51,308 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 03:12:53,309 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 03:12:55,309 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 03:12:57,310 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 03:12:59,311 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 03:13:01,312 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 03:13:03,312 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 03:13:05,313 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 03:13:07,313 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 03:13:09,313 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 03:13:11,313 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 03:13:13,314 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 03:13:15,314 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 03:13:17,314 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 03:13:19,314 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 03:13:19,700 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:13:19,702 [MainThread  ] [INFO ]  Scheduled shutdown activated
+2021-03-23 03:13:21,074 [MainThread  ] [INFO ]  starting
+2021-03-23 03:13:21,096 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:13:27,179 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 03:13:29,180 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 03:13:31,181 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 03:13:33,181 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 03:13:35,182 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 03:13:37,182 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 03:13:39,183 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 03:13:41,183 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 03:13:43,184 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 03:13:45,185 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 03:13:47,186 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 03:13:49,187 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 03:13:51,187 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 03:13:53,188 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 03:13:55,188 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 03:13:57,188 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 03:13:59,189 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 03:14:01,189 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 03:14:03,190 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 03:14:05,190 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 03:14:07,190 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 03:14:09,191 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 03:14:11,192 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 03:14:13,192 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 03:14:15,193 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 03:14:17,194 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 03:14:19,200 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 03:14:21,200 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 03:14:23,201 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 03:14:25,201 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 03:14:25,593 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:14:35,397 [MainThread  ] [INFO ]  starting
+2021-03-23 03:14:35,418 [MainThread  ] [INFO ]  Found credentials in shared credentials file: ~/.aws/credentials
+2021-03-23 03:14:35,971 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:14:41,294 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 1
+2021-03-23 03:14:43,295 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 2
+2021-03-23 03:14:45,295 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 3
+2021-03-23 03:14:47,297 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 4
+2021-03-23 03:14:49,298 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 5
+2021-03-23 03:14:51,299 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 6
+2021-03-23 03:14:53,299 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 7
+2021-03-23 03:14:55,300 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 8
+2021-03-23 03:14:57,300 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 9
+2021-03-23 03:14:59,301 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 10
+2021-03-23 03:15:01,302 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 11
+2021-03-23 03:15:03,303 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 12
+2021-03-23 03:15:05,303 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 13
+2021-03-23 03:15:07,304 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 14
+2021-03-23 03:15:09,304 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 15
+2021-03-23 03:15:11,304 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 16
+2021-03-23 03:15:13,304 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 17
+2021-03-23 03:15:15,305 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 18
+2021-03-23 03:15:17,306 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 19
+2021-03-23 03:15:19,355 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 20
+2021-03-23 03:15:21,355 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 21
+2021-03-23 03:15:23,356 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 22
+2021-03-23 03:15:25,356 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 23
+2021-03-23 03:15:27,357 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 24
+2021-03-23 03:15:29,357 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 25
+2021-03-23 03:15:31,357 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 26
+2021-03-23 03:15:33,358 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 27
+2021-03-23 03:15:35,359 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 28
+2021-03-23 03:15:37,359 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 29
+2021-03-23 03:15:39,360 [MainThread  ] [INFO ]  Sending email Hello world to user@examplesss.com 30
+2021-03-23 03:15:39,758 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:15:50,148 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:00,536 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:10,924 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:21,302 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:31,679 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:42,063 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:16:52,441 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:17:02,820 [MainThread  ] [INFO ]  checking for shutdown file
+2021-03-23 03:17:13,199 [MainThread  ] [INFO ]  checking for shutdown file
